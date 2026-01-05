@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peer-to-Peer Pairing</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+
+<body>
+  <main class="card">
+    <h1>Peer-to-Peer Pairing</h1>
+    <p class="subtitle">Create mentors/mentees by subject, then generate pairings.</p>
+
+    <!-- CREATE STUDENT -->
+    <section class="section">
+      <h2>Create Student</h2>
+
+      <form id="studentForm" class="form">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="Min" required />
+        </div>
+
+        <div class="field">
+          <label for="role">Role</label>
+          <select id="role" required>
+            <option value="mentor">mentor</option>
+            <option value="mentee">mentee</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="subject">Subject</label>
+          <input id="subject" type="text" placeholder="math" required />
+        </div>
+
+        <button type="submit">Create Student</button>
+      </form>
+
+      <div class="row">
+        <button id="refreshStudentsBtn" type="button" class="secondary">
+          Refresh Students
+        </button>
+      </div>
+
+      <div class="tableWrap">
+        <table id="studentsTable">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Role</th>
+              <th>Subject</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- PAIRS -->
+    <section class="section">
+      <h2>Pairs</h2>
+      <p class="subtitleSmall">
+        Click generate to clear + rebuild the pairings based on subject.
+      </p>
+
+      <div class="row">
+        <button id="generatePairsBtn" type="button">
+          Generate / Regenerate Pairs
+        </button>
+
+        <button id="refreshPairsBtn" type="button" class="secondary">
+          Refresh Pairs
+        </button>
+      </div>
+
+      <div class="tableWrap">
+        <table id="pairsTable">
+          <thead>
+            <tr>
+              <th>Mentor</th>
+              <th>Mentee</th>
+              <th>Subject</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- OUTPUT / DEBUG -->
+    <section class="section">
+      <h2>Debug Output</h2>
+      <pre id="output" class="output">Output will appear here…</pre>
+      <p class="hint">
+        Tip: Open DevTools → Console to see logs if something doesn’t work.
+      </p>
+    </section>
+  </main>
+
+  <script src="/static/scripts.js"></script>
+</body>
+</html>
