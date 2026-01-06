@@ -49,8 +49,7 @@ FastAPI’s built-in documentation was especially useful while developing and te
 ### FastAPI Interactive Documentation
 
 Below is a screenshot of the automatically generated FastAPI documentation (`/docs`). This interface allowed me to test endpoints directly in the browser and confirm that the backend behaved correctly before connecting it to the frontend.
-
- **Screenshot: FastAPI Docs**
+<img width="1621" height="638" alt="Screenshot 2026-01-05 at 7 36 02 PM" src="https://github.com/user-attachments/assets/6dfb6952-de5f-4f18-9a54-04642ca6c9ec" />
 
 ---
 
