@@ -1,4 +1,4 @@
-# Peer-to-Peer Pairing
+<img width="1416" height="772" alt="Screenshot 2026-01-05 at 7 42 25 PM" src="https://github.com/user-attachments/assets/7fc1afc0-3dd8-408c-8a87-334cd2ed41f7" /># Peer-to-Peer Pairing
 
 ## About the Peer-to-Peer Program
 
@@ -58,8 +58,7 @@ Below is a screenshot of the automatically generated FastAPI documentation (`/do
 Students are represented using a structured data model that defines required fields such as name, school, and subject. This ensures that all student data entering the system is consistent and valid.
 
 By enforcing structure at the API level, the app avoids common issues like missing fields or incorrect data types, which is especially important when the system is later used to generate pairings automatically.
-
- **Screenshot: POST Endpoint for Creating a Student**
+<img width="1416" height="772" alt="Screenshot 2026-01-05 at 7 42 25 PM" src="https://github.com/user-attachments/assets/155f88e0-40ed-41d4-a180-d8836584e83f" />
 
 ---
 
@@ -73,8 +72,7 @@ One of the core features of the app is the ability to generate mentor–mentee p
 - the results are stored and returned in a readable format
 
 This makes it easy to regenerate pairings whenever the student list changes, without manually redoing the entire process.
-
-**Screenshot: Pairing Endpoint Response**
+<img width="1594" height="624" alt="Screenshot 2026-01-05 at 7 45 42 PM" src="https://github.com/user-attachments/assets/e2905996-ba8b-4416-986d-54f7daebec11" />
 
 ---
 
@@ -87,8 +85,8 @@ The frontend is intentionally simple, focusing on clarity and functionality. It 
 - view current mentor–mentee pairs
 
 JavaScript is used to send requests to the FastAPI backend and dynamically update the page based on the API responses. This helped me understand how frontend interfaces communicate with backend services in real applications.
+<img width="1072" height="882" alt="Screenshot 2026-01-05 at 7 47 37 PM" src="https://github.com/user-attachments/assets/ad83adc9-6eb5-4e54-87c4-4696c5f018dc" />
 
- **Screenshot: Frontend UI**
 
 ---
 
