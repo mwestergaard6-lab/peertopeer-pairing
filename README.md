@@ -50,7 +50,7 @@ FastAPI’s built-in documentation was especially useful while developing and te
 
 Below is a screenshot of the automatically generated FastAPI documentation (`/docs`). This interface allowed me to test endpoints directly in the browser and confirm that the backend behaved correctly before connecting it to the frontend.
 
-📸 **Screenshot: FastAPI Docs**
+ **Screenshot: FastAPI Docs**
 
 ---
 
@@ -60,7 +60,7 @@ Students are represented using a structured data model that defines required fie
 
 By enforcing structure at the API level, the app avoids common issues like missing fields or incorrect data types, which is especially important when the system is later used to generate pairings automatically.
 
-📸 **Screenshot: POST Endpoint for Creating a Student**
+ **Screenshot: POST Endpoint for Creating a Student**
 
 ---
 
@@ -75,7 +75,7 @@ One of the core features of the app is the ability to generate mentor–mentee p
 
 This makes it easy to regenerate pairings whenever the student list changes, without manually redoing the entire process.
 
-📸 **Screenshot: Pairing Endpoint Response**
+**Screenshot: Pairing Endpoint Response**
 
 ---
 
@@ -89,7 +89,7 @@ The frontend is intentionally simple, focusing on clarity and functionality. It 
 
 JavaScript is used to send requests to the FastAPI backend and dynamically update the page based on the API responses. This helped me understand how frontend interfaces communicate with backend services in real applications.
 
-📸 **Screenshot: Frontend UI**
+ **Screenshot: Frontend UI**
 
 ---
 
