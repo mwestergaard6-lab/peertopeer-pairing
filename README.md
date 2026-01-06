@@ -1,5 +1,3 @@
-<img width="1416" height="772" alt="Screenshot 2026-01-05 at 7 42 25 PM" src="https://github.com/user-attachments/assets/7fc1afc0-3dd8-408c-8a87-334cd2ed41f7" /># Peer-to-Peer Pairing
-
 ## About the Peer-to-Peer Program
 
 Peer-to-Peer is a student-run tutoring program at my school that connects students who need academic support with classmates who are able to help. The program is built around the idea that learning is often most effective when it happens between peers — students who understand the coursework, the pace of classes, and the challenges of balancing school with life.
